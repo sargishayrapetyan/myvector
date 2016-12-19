@@ -1,0 +1,29 @@
+﻿  main.cpp
+c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(148): error C2062: type 'auto' unexpected
+  c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(146): note: while compiling class template member function 'Vector<int>::Vector(std::initializer_list<T>)'
+          with
+          [
+              T=int
+          ]
+  c:\users\sargis\documents\visual studio 2015\projects\vector\vector\main.cpp(35): note: see reference to function template instantiation 'Vector<int>::Vector(std::initializer_list<T>)' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\sargis\documents\visual studio 2015\projects\vector\vector\main.cpp(6): note: see reference to class template instantiation 'Vector<int>' being compiled
+c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(148): error C2065: 'i': undeclared identifier
+c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(148): error C2059: syntax error: ')'
+c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(150): error C2065: 'i': undeclared identifier
+c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(150): error C2059: syntax error: ';'
+c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(152): error C2059: syntax error: '}'
+c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(152): error C2143: syntax error: missing ';' before '}'
+c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(135): error C2065: 'T': undeclared identifier
+c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(135): error C2923: 'Vector': 'T' is not a valid template type argument for parameter 'T'
+c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(135): error C2955: 'Vector': use of class template requires template argument list
+  c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(5): note: see declaration of 'Vector'
+c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(136): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(137): error C2065: 's': undeclared identifier
+c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(137): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(138): error C2061: syntax error: identifier 'T'
+c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(138): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\sargis\documents\visual studio 2015\projects\vector\vector\vector.h(139): error C2448: 'vectorPtr': function-style initializer appears to be a function definition

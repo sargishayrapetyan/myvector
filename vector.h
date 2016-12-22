@@ -30,7 +30,7 @@ public:
 
 			  iterator operator++(int)
 			  {
-				  iteraor temp(*this);
+				  iterator temp(*this);
 				  ++(*this);
 				  return temp;
 			  }
@@ -367,7 +367,7 @@ typename Vector<T>::iterator Vector<T>::begin()
 }
 
 template <typename T>
-typename const Vector<T>::iterator Vector<T>::begin() const
+const typename Vector<T>::iterator Vector<T>::begin() const
 {
 	return vectorPtr;
 }
